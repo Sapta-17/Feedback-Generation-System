@@ -39,7 +39,7 @@ class FeedbackManagementApplicationTests {
 
         feedbackService.createFeedback(feedback);
 
-        List<Feedback> feedbacks = feedbackService.getFeedbackByEmail("user@example.com");
+        List<Feedback> feedbacks = feedbackService.getFeedbackByEmail("user@gmail.com");
         assertThat(feedbacks).isNotEmpty();
     }
 	@Test
